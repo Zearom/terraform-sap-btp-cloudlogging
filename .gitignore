@@ -232,3 +232,6 @@ fabric.properties
 .idea/**.xml
 .idea/**.iml
 **/.terraform.lock.hcl
+
+#ignore tests example
+tests/example/*
