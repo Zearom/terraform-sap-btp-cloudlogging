@@ -231,3 +231,4 @@ fabric.properties
 
 .idea/**.xml
 .idea/**.iml
+**/.terraform.lock.hcl
