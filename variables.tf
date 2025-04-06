@@ -20,3 +20,16 @@ variable "default-service-binding-name" {
   default     = "default"
   type        = string
 }
+
+variable "additional-service-binding-names" {
+  description = "Additional service binding names"
+  type        = list(string)
+  nullable    = true
+}
+
+variable "service-binding-ingest-certificate-validity-days" {
+  description = "The number of days the certificate is valid for"
+  type        = number
+  default     = 90
+  nullable    = false
+}
