@@ -5,6 +5,7 @@ module "cloudlogging" {
   subaccount-id = data.btp_subaccount.subaccount.id
   default-service-binding-name = "default-binding"
   additional-service-binding-names = ["additional-binding-1", "additional-binding-2"]
+  service-binding-ingest-certificate-validity-days = 90
 }
 
 data "btp_subaccount" "subaccount" {
